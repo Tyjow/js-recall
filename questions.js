@@ -57,11 +57,14 @@ var everyPossiblePair = function(array) {
 }
 
 var allElementsExceptFirstThree = function(array) {
-    return 'Write your method here';
+    array.splice(0,3);
+    return array;
 }
 
 var addElementToBeginning = function(array, element) {
-    return 'Write your method here';
+    var tab = array;
+    tab.unshift(element);
+    return tab;
 }
 
 var sortByLastLetter = function(array) {
